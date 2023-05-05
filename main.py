@@ -10,6 +10,6 @@ im_2 = image_2.convert('RGB')
 im_3 = image_3.convert('RGB')
 im_4 = image_4.convert('RGB')
 
-image_list = [im_1, im_2, im_3, im_4]
+image_list = [im_2, im_3, im_4]
 
 im_1.save(r'/Users/rogerteong/Desktop/Education Transcript/Image to PDF Transcript.pdf', save_all=True, append_images=image_list)
